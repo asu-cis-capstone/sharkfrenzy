@@ -1,0 +1,49 @@
+/*
+SharkFrenzy
+SharkFrenzy.css
+Spring 2016
+
+*/
+
+.jumbotron {
+	font-family: 'Open Sans', sans-serif;
+	color: #005999;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-collapse.collapse {
+	display: table-cell!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+	display: table;
+	float: left !important;
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}
+
+.navbar-nav li {
+	display: table-cell;
+	width: 20%;
+	text-align: center;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#prefooter { padding-bottom: 50px; }
+
+.img-circle {
+	box-shadow: 0 0 8px rgba(0,0,0,.8);
+}
+
+.input-group-addon {
+	width: 74px;
+}
