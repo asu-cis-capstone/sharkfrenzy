@@ -1,0 +1,19 @@
+/*
+SharkFrenzy
+Logon.css
+Spring 2016
+
+*/
+
+.vertical-center {
+	background-image: url('../images/logon/bg_water.jpg');
+	color: white;
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.btn {
+	width: 50%;
+}
